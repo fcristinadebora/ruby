@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Nome: MyString
+  Descricao: MyString
+  Prioridade: 1
+  DataPrazo: 1
+
+two:
+  Nome: MyString
+  Descricao: MyString
+  Prioridade: 1
+  DataPrazo: 1

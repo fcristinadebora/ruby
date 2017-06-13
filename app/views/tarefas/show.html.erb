@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @tarefa.Nome %>
+</p>
+
+<p>
+  <strong>Descricao:</strong>
+  <%= @tarefa.Descricao %>
+</p>
+
+<p>
+  <strong>Prioridade:</strong>
+  <%= @tarefa.Prioridade %>
+</p>
+
+<p>
+  <strong>Dataprazo:</strong>
+  <%= @tarefa.DataPrazo %>
+</p>
+
+<%= link_to 'Edit', edit_tarefa_path(@tarefa) %> |
+<%= link_to 'Back', tarefas_path %>
